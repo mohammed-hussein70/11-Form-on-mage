@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.containerImg {
+  width: 100%;
+  height: 100%;
+  background-image: url(1.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+label {
+  font-weight: bold;
+  font-size: 20px;
+}
+.containerImg .cont {
+  position: absolute;
+  /* right: 0; */
+  margin: 20px;
+  height: 350px;
+  max-width: 500px;
+  padding: 16px;
+  background-color: #b9b9b9;
+}
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: 2px solid #666;
+  background-color: #b9b9b9;
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #ffffff;
+  outline: none;
+}
+.btn {
+  width: 100%;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  border: 2px solid #999;
+  background-color: #999;
+  &:hover {
+    background-color: #ffffff;
+  }
+}
